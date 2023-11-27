@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Interview Demo Project]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.InterviewDemoProject.listeners.MyListeners"/>
+  </listeners>
+  <test thread-count="5" name="Interview Test(failed)">
+    <classes>
+      <class name="com.InterviewDemoProject.testcases.Register">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="registerWithMandatoryField"/>
+        </methods>
+      </class> <!-- com.InterviewDemoProject.testcases.Register -->
+    </classes>
+  </test> <!-- Interview Test(failed) -->
+</suite> <!-- Failed suite [Interview Demo Project] -->
